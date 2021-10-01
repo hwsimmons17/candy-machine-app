@@ -7,7 +7,9 @@ export const Hero = () => {
   return (
     <div className="heroAll">
       <div className="heroBody">
-        <h1>Purchase exclusive NFTs or create your own minting machine!</h1>
+        <h1>
+          Purchase exclusive NFTs or create your own minting machine on Solana!
+        </h1>
         <div className="heroBtns">
           <Link to="/gallery">
             <button className="pBtn">Explore</button>
