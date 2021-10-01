@@ -1,0 +1,136 @@
+.allB {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroAll {
+  margin-top: 150px;
+  display: flex;
+}
+
+.heroBody {
+  width: 50%;
+  margin: 10px;
+}
+
+.heroBody > h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.heroBtns {
+  width: 100%;
+}
+
+.heroBtns > * {
+  margin: 0 20px;
+}
+
+.pBtn {
+  font-size: 1.7em;
+  border: 1px solid #4e44ce;
+  color: white;
+  background-color: #4e44ce;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.pBtn:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15) 0 0);
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.sBtn {
+  font-size: 1.7em;
+  border: 1px solid #4e44ce;
+  color: #4e44ce;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.sBtn:hover {
+  border: 1px solid #4e44ce;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.heroImg {
+  width: 50%;
+  margin: 10px;
+}
+
+.bodyOAll {
+  display: flex;
+  margin-top: 100px;
+}
+
+.bodyODiv {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.bodyODiv > h1 {
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+.bodyODiv > p {
+  margin: 0;
+  text-align: center;
+}
+
+.bodyODiv > p > * {
+  color: rgb(21, 178, 229);
+}
+
+.bodyODiv > p > a:hover {
+  color: rgb(24, 104, 183);
+}
+
+.bodyOLogo {
+  font-size: 3em;
+}
+
+.bodyTwAll {
+  margin-bottom: 100px;
+}
+
+.bodyTwAll > h1 {
+  text-align: center;
+  font-size: 2;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.bodyTwBody {
+  display: flex;
+}
+
+.bodyTwBody > * {
+  width: 33%;
+  margin: 0 10px;
+}
+
+.bodyTwCont {
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  height: 300px;
+}
+
+.bodyTwCont > img {
+  width: 100%;
+  height: 200px;
+}
+
+.bodyTwCont > p {
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,132 @@
+.navAll {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 100;
+  background-color: white;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 600;
+  background: linear-gradient(#14f094 0%, #8f4af6 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rightDiv {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-size: 1.5em;
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #555555;
+}
+
+.linkActive {
+  color: #555555;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.burger {
+  display: none !important;
+}
+
+.overland {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  top: 80px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.overland > * {
+  text-align: center !important;
+  margin: 30px;
+  display: flex !important;
+  justify-content: center !important;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+@media (max-width: 900px) {
+  .rightDiv {
+    display: none !important;
+  }
+  .logo {
+    font-size: 2.3em !important;
+  }
+  .burger {
+    display: flex !important;
+  }
+  .burger:hover {
+    cursor: pointer !important;
+  }
+  .overland {
+    display: flex;
+  }
+}
+
+.fAll {
+  width: 100%;
+  background: linear-gradient(180deg, #14f094 -20%, #8f4af6 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fBody {
+  display: flex;
+  max-width: 1200px;
+}
+
+.fLeft {
+  width: 33%;
+}
+
+.fRight {
+  width: 67%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fColumn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.fColumn > h1 {
+  font-size: 1em;
+  margin-top: 30px;
+}
+
+.fColumn > * {
+  margin: 10px 0;
+}
+
+.fBottom {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
