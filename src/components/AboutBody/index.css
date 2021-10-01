@@ -1,0 +1,64 @@
+.allB {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroAll {
+  margin-top: 150px;
+  display: flex;
+}
+
+.heroBody {
+  width: 50%;
+  margin: 10px;
+}
+
+.heroBody > h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.heroBtns {
+  width: 100%;
+}
+
+.heroBtns > * {
+  margin: 0 20px;
+}
+
+.pBtn {
+  font-size: 1.7em;
+  border: 1px solid #4e44ce;
+  color: white;
+  background-color: #4e44ce;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.pBtn:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15) 0 0);
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.sBtn {
+  font-size: 1.7em;
+  border: 1px solid #4e44ce;
+  color: #4e44ce;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.sBtn:hover {
+  border: 1px solid #4e44ce;
+  transition: all 0.2s ease 0s;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.heroImg {
+  width: 50%;
+  margin: 10px;
+}

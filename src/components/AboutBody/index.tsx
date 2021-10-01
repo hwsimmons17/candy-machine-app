@@ -1,5 +1,13 @@
+import { BodyOne } from "./BodyOne";
+import { BodyTwo } from "./BodyTwo";
+import { Hero } from "./Hero";
 import "./index.css";
 
-export const HomeBody = () => {
-  return <div className="allB">stuff</div>;
+export const AboutBody = () => {
+  return (
+    <div className="allB">
+      <Hero />
+      <BodyTwo />
+    </div>
+  );
 };
