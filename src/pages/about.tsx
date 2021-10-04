@@ -6,7 +6,7 @@ import "./index.css";
 
 const About = () => {
   return (
-    <div>
+    <div className="all">
       <Navbar />
       <AboutBody />
       <Footer />

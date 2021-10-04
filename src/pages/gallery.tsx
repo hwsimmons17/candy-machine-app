@@ -2,11 +2,11 @@
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Navbar/Footer";
 
-import "./index.css"
+import "./index.css";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="all">
       <Navbar />
       stuff
       <Footer />

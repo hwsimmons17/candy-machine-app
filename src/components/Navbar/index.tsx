@@ -71,8 +71,8 @@ export const Navbar = () => {
           <Link to="/gallery">
             <div>Gallery</div>
           </Link>
-          <Link to="/auction">
-            <div>Purchase</div>
+          <Link to="/create">
+            <div>Create</div>
           </Link>
           <div>
             <WalletMultiButton />

@@ -1,15 +1,14 @@
-// import { HomeBody } from "../components/HomeBody";
+import { CreateBody } from "../components/CreateBody";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Navbar/Footer";
 
-import "./index.css"
+import "./index.css";
 
 const Create = () => {
   return (
-    <div>
+    <div className="all">
       <Navbar />
-      stuff
-      <Footer />
+      <CreateBody />
     </div>
   );
 };
